@@ -1,0 +1,62 @@
+Działanie kalkulatora
+Anna Kowalewska
+Aleksandra Kuhn
+Anastasiia Lysina
+
+- włącz kalkulator
+- wprowadź liczbę -> weryfikuj liczbę,
+-- jeżeli liczba z przecinkiem:
+--- sprawdź ilość znaków<=17 ->dalej, jeżeli ilość znaków>17 -> nie wpisuj,
+-- jeżeli liczba bez przecinka:
+-- sprawdź ilość znaków<=16 ->dalej, jeżeli ilość znaków>16 -> nie wpisuj, 
+- wybierz działanie: 
+-- jeżeli pierwiastek -> "znak pierwiastka", 
+--- weryfikuj liczbę>=0 -> oblicz pierwiastek z wpisanej liczby, jeżeli liczba<0 -> nie wpisuj,
+-- jeżeli procent -> "%";
+-- jeżeli liczba ujemna -> +-, -> ponowne użycie "+-" -> liczba dodatnia;
+-- jeżeli ułamek -> 1/x;
+-- jeżeli dodawanie -> +; 
+-- jeżeli odejmowanie -> -; 
+-- jeżeli mnożenie -> *; 
+-- jeżeli dzielenie -> /; 
+- wprowadź liczbę -> weryfikuj liczbę,
+--jeżeli liczba z przecinkiem:
+--- sprawdź ilość znaków<=17 ->dalej, jeżeli ilość znaków>17 -> nie wpisuj,
+-- jeżeli liczba bez przecinka:
+-- sprawdź ilość znaków<=16 ->dalej, jeżeli ilość znaków>16 -> nie wpisuj,
+-- jeżeli pierwiastek -> "znak pierwiastka",
+--- weryfikuj liczbę>=0 -> oblicz pierwiastek z wpisanej liczby, jeżeli liczba<0 -> nie wpisuj,
+-- jeżeli procent -> "%";
+-- jeżeli liczba dodatnia/ujemna -> +-, -> ponowne użycie "+-" -> liczba dodatnia;
+-- jeżeli ułamek -> 1/x;
+- jeżeli "<-" -> usuń ostatnią wpisaną liczbę;
+- jeżeli "CE" -> skasuj to co na wyświetlaczu, zachowaj liczby w pamięci,
+- wybierz "=",
+-- oblicz wynik,
+-- pokaż wynik,
+- zapamiętaj wynik: 
+-- jeżeli M+; dodaj liczbę do pamięci kalkulatora,
+-- jeżeli M-; odejmij liczbę z pamięci kalkulatora,
+-- jeżeli MS; zapisz liczbę z wyświetlacza do pamięci kalkulatora,
+-- jeżeli MR; wyświetl zapamiętaną liczbę,
+- wprowadź liczbę -> weryfikuj liczbę,
+-- jeżeli liczba z przecinkiem:
+--- sprawdź ilość znaków<=17 ->dalej, jeżeli ilość znaków>17 -> nie wpisuj,
+-- jeżeli liczba bez przecinka:
+-- sprawdź ilość znaków<=16 ->dalej, jeżeli ilość znaków>16 -> nie wpisuj, 
+- wybierz działanie: 
+-- jeżeli pierwiastek -> "znak pierwiastka", 
+--- weryfikuj liczbę>=0 -> oblicz pierwiastek z wpisanej liczby, jeżeli liczba<0 -> nie wpisuj,
+-- jeżeli procent -> "%";
+-- jeżeli liczba dodatnia/ujemna -> +-, -> ponowne użycie "+-" -> liczba dodatnia,
+-- jeżeli ułamek -> 1/x;
+-- jeżeli dodawanie -> +; 
+-- jeżeli odejmowanie -> -; 
+-- jeżeli mnożenie -> *; 
+-- jeżeli dzielenie -> /; 
+- jeżeli wybrano MR; wyświetl zapamiętaną liczbę,
+-- wybierz "=",
+-- oblicz wynik,
+-- pokaż wynik,
+- jeżeli "C"; kasuj liczby i działania na wyświetlaczu,
+-- jeżeli "MC"; wyczyść pamięć kalkulatora,
